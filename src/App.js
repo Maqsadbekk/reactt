@@ -3,23 +3,17 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <div className="card">
+        <h1>Salom, Men — Maqsadbek 👋</h1>
+        <p>Men IT sohasida 2 yildan beri ishlayman. Texnologiyalar, veb yaratish va sun’iy intellektga qiziqaman.</p>
+        <p>Ingliz tilini ham bilaman va kelajakda global loyihalar qilishni maqsad qilganman.</p>
+        <div className="neon">Future Developer ⚡</div>
+      </div>
+      <footer>© 2025 Maqsadbek</footer>
     </div>
   );
 }
 
 export default App;
+
